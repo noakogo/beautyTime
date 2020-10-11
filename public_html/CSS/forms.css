@@ -1,0 +1,396 @@
+#icon{
+	display:inline-block;
+	float: center;
+} 
+#logo{
+	width: 120%;
+    width: 330px;
+    height: 180px;
+    margin-bottom: 0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right:100px;
+   /* border-style: solid;*/
+   padding-right:90px;
+}
+body {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../pics/Store/2.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+/*ensures that all elements are border-box*/
+* {
+    box-sizing: border-box;
+}
+
+.SignForm{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 100%
+	max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.form{
+    /*background: rgb(255,255,255,0.6);*/
+    width: 100%;
+	color: #CDCDCD;
+	position: relative;
+    display: inline-block;
+     border-radius: 5px;
+     min-width: 500px;
+}
+
+.form .formBackground{
+    box-sizing: border-box;
+	/*background: rgba(255, 255, 255, .5); */
+    padding: 50px 80px;
+    padding-top: 10px;
+
+}
+
+.form-title-row{
+	text-align: center;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1F1E1E;
+    font-size: 24px;
+    
+}
+
+.form .form-row-radio{
+    margin-bottom: 10px;
+}
+
+.form .form-row-radio input{
+    width: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.form .form-row-radio span {
+	display: inline-block;
+    width: 100px;
+    text-align: left;
+    padding-left: 10px;
+	color: white;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.form button{
+	display: block;
+    border-radius: 3px;
+    background-color: #f89797;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px 35px;
+    border: 2px solid #676767 ;
+    margin: 20px auto 0;
+}
+
+.form button:hover{
+    background-color: #9e5f5f;
+}
+
+.form label{
+	position: relative;
+    border: 2px solid;
+    border-color: #676767;
+    border-radius: 5px;
+    background-color: #f89797;
+} 
+    
+.form .form-row{
+    margin-bottom: 23px;
+}
+
+.form-row span {
+	display: inline-block;
+    box-sizing: border-box;
+    width: 120px;
+    text-align: right;
+    padding-right: 25px;
+	color: white;
+}
+
+.form input {
+	 color:  #5f5f5f;
+    box-sizing: border-box;
+    padding: 12px 18px;
+}
+
+.centerPattern{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.patternBackground h4,h5{
+    color: #1F1E1E;
+}
+
+.patternBackground h4 a{
+    color: #1F1E1E;
+}
+
+.patternBackground h4 a:hover{
+    color: #ffffff;
+}
+
+.patternBackground p{
+    color: #1F1E1E;
+    font-size: 12px;
+}
+
+.patternBackground img{
+   width: 100%;
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #1F1E1E;
+}
+
+/*footer style*/
+footer{
+    background-color:#222222;
+    height:100%;
+    position:relative;
+    width:100%;
+    font-weight:lighter;
+    color:white;
+
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:#2C3E50;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+
+#map {
+    width:200px;
+    height: 100px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+.center-footer{
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.pattern-fotter{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 40px;
+    
+}
+.img-footer{
+     width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.mySlides {
+display: none;
+    position: relative;
+    margin-top: -9px;
+ border: 0px solid #1F1E1E;
+    
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+    border: 0px solid #1F1E1E;
+    
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -80px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left:-80px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+     border: 0px solid #1F1E1E;
+    position: relative;
+    display: inline-block;
+    top:20px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+    display: inline-block;
+  font-size: 12px;
+  top:10px;
+  position: relative;
+     border: 0px solid #1F1E1E;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top:0;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    margin-bottom: 0;
+    
+    
+}
+.dots{
+    text-align:center;
+    border: 0px solid #1F1E1E;
+    top:10px;
+    display: inline-block;
+}
+        
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+/*/desktop/*/
+@media only screen and (min-width: 1281px) {
+       .form label{width: 302px;}
+    .form input{width: 59.5%;
+        border: 0px;
+     border-left: 2.3px solid #676767;}
+    .form{width: 40%}
+    
+}
+
+/*/desktop/*/
+@media only screen and (max-width: 1280px) {
+      label{width: 302px;}
+    .form input{
+        width: 59.5%;
+        border: 0px;
+         border-left: 2.3px solid #676767;
+    }
+    
+}
+/*/tablet wide/*/
+@media only screen and (max-width: 1024px) { 
+
+    label{width: 302px;}
+    .form input{
+        width: 59.5%;
+        border: 0px;
+         border-left: 2.3px solid #676767;
+    }
+
+}
+/*/tablet portrait/*/
+@media only screen and (max-width: 768px) {
+    label{width: 302px;}
+    .form input{
+        width: 59.5%;
+        border: 0px;
+         border-left: 2.3px solid #676767;
+    }
+
+}
+/*/phone/*/
+@media only screen and (max-width:483px){
+    .prev, .next,.text {font-size: 11px}
+    .form{width: 100%}    
+    label{width: 180px;}
+    .form input{
+        width: 100%;
+        border: 0px;
+        border-left:0;
+    }
+}
+div#myNavbar.collapse.navbar-collapse{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

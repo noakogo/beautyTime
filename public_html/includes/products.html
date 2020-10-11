@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Beauty Time</title>
+	<!-- font awsome -->
+	<link 
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+		crossorigin="anonymous"
+	/>
+	<!-- custom css -->
+	<link rel="stylesheet" href="../CSS/products.css">
+		<link rel="stylesheet" href="../CSS/common.css">
+
+</head>
+<body>
+	  <!--navbar -->
+	<nav class="navbar">
+		<div class="navbar-center">
+		    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn link" onclick="closeNav()">&times;</a>
+          <a class="link" href="../index.html">Home</a>
+          <a class="link" href="../includes/user-profile.php">Profile</a>
+          <a class="link" href="../includes/appointments.php">Appointments</a>
+          <a class="link" href="../includes/Packages.html">Packages</a>
+          <a class="link" href="../includes/products.html">Products</a>
+          <a class="link" href="../includes/Gallery.html">Gallery</a>
+          <a class="link" href="../includes/spa.html">Spa</a>
+          <a class="link" href="../includes/aboutus.html">About us</a>
+          <a class="link" href="../includes/contact-us.php">Contact us</a>
+        </div>
+
+			<img src="../pics/Store/storeLogo2.jpg" alt="store logo">
+			<div class="cart-btn">
+				<span class="nav-icon">
+					<i class="fas fa-cart-plus"></i>					
+				</span>
+				<div class="cart-items">0</div>
+			</div>
+		</div>
+	</nav>
+	 <!-- end of navbar -->
+	 <!--hero  -->
+	<header class="hero">
+		<div class="banner">
+			<h1 class="banner-title">Time For Beauty</h1>
+			<button class="banner-btn" onClick="document.getElementById('store').scrollIntoView();">shop now</button>
+		</div>
+	</header>
+	<!-- end of hero -->
+	<!-- products -->
+	<section class="products">
+	    <div class="section-title" id="store">
+			<h2>our products</h2>
+		</div>
+		<div class="products-center">
+		    <!--data is taken from the js file-->
+		</div>
+	</section>
+	<!-- end of products -->
+	<!--cart-->
+	<div class="cart-overlay">
+	    <div class="cart">
+	        <span class="close-cart">
+	            <i class="fas fa-window-close"></i>
+	        </span>
+	        <h2>your cart</h2>
+	        <div class="cart-content">
+
+	        </div>
+	       <div class="cart-footer">
+	       <h3>your total : $ <span class="cart-total">0</span></h3>
+	       <button class="clear-cart banner-btn">clear cart</button>
+	       <button class="clear-cart banner-btn" onClick="window.location.href='../includes/payment.php'">Pay Now!</button>
+	   </div>
+	 </div>
+	</div>
+	<!--end of cart-->
+<!--<script src="../JS/app.js"></script>-->
+<script src="../JS/products.js"></script>
+<script src="../JS/common.js"></script>
+
+<script type="text/javascript">
+ var vsid = "sa58193";
+ (function() { 
+ var vsjs = document.createElement('script'); vsjs.type = 'text/javascript'; vsjs.async = true; vsjs.setAttribute('defer', 'defer');
+  vsjs.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.virtualspirits.com/vsa/chat-'+vsid+'.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vsjs, s);
+ })();
+</script>
+
+</body>
+</html>

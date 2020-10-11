@@ -1,0 +1,218 @@
+#icon{
+	display:inline-block;
+	float: center;
+} 
+#logo{
+	width: 120%;
+    width: 330px;
+    height: 180px;
+    margin-bottom: 0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right:100px;
+   /* border-style: solid;*/
+   padding-right:90px;
+}
+body {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../pics/Store/2.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+/*ensures that all elements are border-box*/
+* {
+    box-sizing: border-box;
+}
+
+.centerPattern{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div#myNavbar.collapse.navbar-collapse{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1{
+font-family: 'Arapey';
+  font-style: italic;
+  font-weight: 200;
+}
+.description{
+    font-family: 'Andika';font-size: 22px;
+    margin-top:30px;
+    margin-bottom:10%;
+    background-color:hsla(0,90%,1000%,0.6);
+    padding-left:5px;
+    padding-right:5px;
+}
+
+h5{
+    font-family: 'Andika';font-size: 22px;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+footer{
+    background-color:hsla(0,90%,1000%,0.6);
+    margin-bottom:5px;
+    position:relative;
+}
+
+
+.mb-1{
+    position: relative;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: left;
+}
+
+.list-unstyled{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:16px;
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  padding: 9px;
+}
+
+a {
+    z-index:600;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f05c79;
+  color: white;
+}
+
+.fa-snapchat-ghost{
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.py-3{
+    font-size:18px;
+    background-color:hsla(0,90%,1000%,0.4);
+}
+
+
+
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+
+/*/tablet wide/*/
+@media only screen and (max-width: 1024px) { 
+    .footer{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .mb-1{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    float: left;
+    }
+    
+    .py-3{
+        margin-top:10px;
+    }
+}
+
+/*/tablet portrait/*/
+@media only screen and (max-width: 768px) {
+        .footer{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .mb-1{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    float: left;
+    }
+    
+    .py-3{
+        margin-top:10px;
+    }
+}
+
+/*/phone/*/
+@media only screen and (max-width:483px){
+        .footer{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .mb-1{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    float: left;
+    }
+    
+    .py-3{
+        margin-top:10px;
+    }
+}
